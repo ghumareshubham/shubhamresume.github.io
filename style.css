@@ -1,0 +1,147 @@
+.d-block{
+    border-radius: 50%;
+}
+/* .backgroung-gradient{
+    background: rgb(54,235,209);
+background: linear-gradient(90deg, rgba(18, 231, 255, 0.676) 0%, rgb(44, 236, 243) 91%, rgba(149, 215, 253, 0.303) 100%);
+
+} */
+
+.backgroung-gradient {
+    background: linear-gradient(300deg, #00bfff, #e37989, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.display{
+    font-family: 'Pacifico', cursive;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+
+/* horizontal line css */
+hr {
+    border: dotted #192f2f 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+/* all heading like experience/skills/etc */
+h1.display-5{
+    font-family: 'Playfair', serif;
+    color: #66bfbf;
+}
+
+
+
+
+/* skill */
+
+.skill{
+    display: inline-block;
+    width: 100%;
+}
+.skill-left{
+    float: left;
+    margin-left: 10px;
+    width: 45%;
+}
+
+.skill-right{
+    float: right;
+    margin-right: 10px;
+    width: 45%;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+/* footer css */
+div.contact-icon{
+    display: inline-block;
+     
+      text-align: left;
+    
+}
+div#left{
+   float: left;
+   margin-left: 20px;
+   width: 60%;
+}
+div#right{
+float: right;
+}
+
+img.conatct-icon{
+   height: 30px;
+   width: 30px;
+}
+p.contact-icon{
+    font-size: 30px;
+    /* margin-left: 10px; */
+    
+}
+
+
+
+  #getintouch {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    
+}
+div#getintouch{
+    margin: 20px 60px 80px 20px;
+  }
+
+
+
+  footer {
+    text-align: center;
+    background-color: rgb(155, 148, 156);
+    /* clear: both; */
+    height: 40px;
+  }
+
+  #contact-back {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+
+ 
+
+
+
+
+
+
+
